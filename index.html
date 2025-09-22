@@ -6,20 +6,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles.css" />
-    <title>Chiemelie's Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+    <title>Ejike's - Portfolio</title>
   </head>
   <body>
     <!-- Header -->
     <header>
       <h1>Ejike's Portfolio</h1>
       <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#interests">Interests</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#media">Media</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <a class="navlink" href="#about">About</a>
+        <a class="navlink" href="#interests">Interests</a>
+        <a class="navlink" href="#skills">Skills</a>
+        <a class="navlink" href="#projects">Projects</a>
+        <a class="navlink" href="#media">Media</a>
+        <a class="navlink" href="#contact">Contact</a>
         </ul>
       </nav>
     </header>
@@ -27,22 +27,15 @@
     <!-- Main Content -->
     <main>
       <!-- About Section -->
-      <section id="about">
-        <h2>
-          Hey 👋🏾, I am
-          <strong style="font-weight: 800">Ejike</strong>
+       <section id="about">
+          <div>Full-Stack developer . Cybersecurity Analyst . Networking . IT Support</div>
+          <h2>Hey 👋🏾, I am <strong style="font-weight: 800">Ejike</strong>
         </h2>
-        <p>
-          I am a
-          <em>Front-end software developer|| Cyber Security </em>
-          proficient in building applications and experiences on the web. I work as a frontend lead at
-          <a href="https://aicic.ng" target="_blank">AICIC, Awka</a>
-          .
-          <br />
-          I am also a law student at
-          <abbr title="Nnamdi Azikiwe University">UNIZIK</abbr>
-          , Awka.
-        </p>
+          <h2>I am a Full-Stack Developer and Cyber Security-minded IT student who builds practical software and real-world fixes.</h2>
+            <p>I build/design a responsive website or apps and secure networks, run penetration testing labs, and write clear reports that technical and non-technical teams can act on. Currently studying Information Technology at Nnamdi Azikiwe University Awka.</p>
+            <a class="btn-outline" href="#hire/contact">Hire / Contact</a>
+          </div>
+  
         <figure>
           <img src="/Assests/WhatsApp Image 2025-09-17 at 16.32.59_81c8ac44 (2).jpg" alt="A picture of Ejike Odum" width="300" />
           <figcaption>That's me, Ejike 😎</figcaption>
@@ -54,16 +47,41 @@
         <h2>My Interests</h2>
         <ul>
           <li>Frontend Development</li>
-          <li>Cyber security/ Ethical hacking</li>
-          <li>Tech Law</li>
-          <li>Teaching & Mentorship</li>
+          <li>Cyber security</li>
+          <li>Ethical hacking</li>
+          <li>Musical instruments</li>
         </ul>
+      </section>
+
+      <!--Skills-->
+      <section id="skills">
+        <h2> My skills</h2>
+        <ul>
+          <li>Gaphics design</li>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Piano</li>
+          <li>Violine</li>
+
+
+
+
+
+
+
+
+        </ul>
+
+
+
       </section>
 
       <!-- Projects Section -->
       <section id="projects">
         <h2>Projects</h2>
-        <table border="1" cellpadding="10">
+        <table border="3" cellpadding="10">
           <thead>
             <tr>
               <th>Project</th>
@@ -116,24 +134,20 @@
 
         <form action="#" method="post">
           <label for="name">Your Name:</label>
-          <br />
+          <br>
           <input type="text" id="name" name="name" required />
-          <br />
-          <br />
-
+          
+          <br>
           <label for="email">Your Email:</label>
-          <br />
+          <br>
           <input type="email" id="email" name="email" required />
-          <br />
-          <br />
-
+          <br>
           <label for="message">Message:</label>
-          <br />
+          <br>
           <textarea id="message" name="message" rows="5" cols="30"></textarea>
-          <br />
-          <br />
+          <br/>
 
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send"/>
         </form>
       </section>
     </main>
@@ -143,7 +157,7 @@
       <p>&copy; 2025 Ejike Odum | Built with HTML ❤️</p>
       <p>
         Connect with me on
-        <a href="https://github.com/mchiemelie" target="_blank">GitHub</a>
+        <a href="https://github.com/Stephenejikeod" target="_blank">GitHub</a>
         |
         <a href="https://linkedin.com" target="_blank">LinkedIn</a>
       </p>
